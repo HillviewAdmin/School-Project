@@ -65,7 +65,7 @@
     <Build Include="dbo\Tables\TimeTable.sql" />
     <Build Include="dbo\Tables\Textbook.sql" />
     <Build Include="dbo\Tables\PeopleType.sql" />
-    <Build Include="dbo\Tables\PAYMENT.sql" />
+    <Build Include="dbo\Tables\Payment.sql" />
     <Build Include="dbo\Tables\Examination.sql" />
     <Build Include="dbo\Tables\Course.sql" />
     <Build Include="dbo\Tables\Class.sql" />
