@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[People] (
     [PeopleId]     INT            NOT NULL,
     [PeopleTypeId] INT            NOT NULL,
-    [UserTypeId]   INT            NOT NULL,
+	[UserTypeId]   INT            NOT NULL,
     [FirstName]    VARCHAR (50)   NOT NULL,
     [LastName]     VARCHAR (50)   NOT NULL,
     [MiddleName]   VARCHAR (35)   NOT NULL,
