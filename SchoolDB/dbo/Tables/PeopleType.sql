@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[PeopleType] (
-    [PEopleTypeID]   INT          NOT NULL,
+    [PeopleTypeID]   INT          NOT NULL,
     [PeopleTypeName] VARCHAR (50) NOT NULL,
     [Description]    VARCHAR (50) NOT NULL,
     [CreatedBy]      VARCHAR (50) NOT NULL,

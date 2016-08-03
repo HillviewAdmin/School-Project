@@ -5,10 +5,8 @@
     [TimeStart]        TIME (7)     NULL,
     [TimeEnd]          TIME (7)     NULL,
     [CreatedBy]        VARCHAR (25) NOT NULL,
-    [CreateDate]       DATETIME     NOT NULL,
-    [UpdateBy]         VARCHAR (25) NULL,
-    [UpdateDate]       DATETIME     NULL,
-    FOREIGN KEY ([ClassId]) REFERENCES [dbo].[Class] ([ClassID]),
-    FOREIGN KEY ([CourseCode]) REFERENCES [dbo].[Course] ([CourseCode])
+    [CreateDate]       DATETIME     DEFAULT GETDATE() NOT NULL,
+    [UpdateBy]         INT   NOT NULL,
+    [UpdateDate]       DATETIME  DEFAULT GETDATE() NOT NULL
 );
 
