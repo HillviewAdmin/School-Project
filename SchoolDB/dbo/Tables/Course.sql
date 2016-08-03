@@ -3,9 +3,9 @@
     [CourseName]  VARCHAR (25) NOT NULL,
     [Description] VARCHAR (50) NOT NULL,
     [CreatedBy]   VARCHAR (25) NOT NULL,
-    [CreateDate]  DATETIME     NOT NULL,
-    [UpdateBy]    VARCHAR (25) NULL,
-    [UpdateDate]  DATETIME     NULL,
+    [CreateDate]  DATETIME  DEFAULT GETDATE()   NOT NULL,
+    [UpdateBy]    INT NOT NULL,
+    [UpdateDate]  DATETIME DEFAULT GETDATE()  NOT NULL,
     CONSTRAINT [PK_Course] PRIMARY KEY CLUSTERED ([CourseCode] ASC)
 );
 

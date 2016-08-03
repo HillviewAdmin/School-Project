@@ -1,11 +1,11 @@
 ﻿CREATE TABLE [dbo].[UserType] (
-    [UserTypeId]         INT          NOT NULL,
-    [Description]        VARCHAR (1)  NOT NULL,
+    [UserTypeID]         INT          NOT NULL,
+    [Description]        VARCHAR (50)  NOT NULL,
     [AuthorizationLevel] INT          NOT NULL,
-    [CreatedBy]          VARCHAR (35) NOT NULL,
-    [CreatedDate]        DATETIME     NOT NULL,
-    [UpdatedBy]          VARCHAR (1)  NULL,
-    [UpdateDate]         DATETIME     NULL,
+    [CreatedBy]          VARCHAR (50) NOT NULL,
+    [CreatedDate]        DATETIME DEFAULT GETDATE()  NOT NULL,
+    [UpdatedBy]          INT NOT NULL,
+    [UpdateDate]         DATETIME DEFAULT GETDATE() NOT NULL,
     CONSTRAINT [PK_UserType] PRIMARY KEY CLUSTERED ([UserTypeId] ASC)
 );
 

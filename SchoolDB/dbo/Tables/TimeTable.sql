@@ -8,7 +8,7 @@
     [CreateDate]       DATETIME     NOT NULL,
     [UpdateBy]         VARCHAR (25) NULL,
     [UpdateDate]       DATETIME     NULL,
-    FOREIGN KEY ([ClassId]) REFERENCES [dbo].[Class] ([ClassId]),
+    FOREIGN KEY ([ClassId]) REFERENCES [dbo].[Class] ([ClassID]),
     FOREIGN KEY ([CourseCode]) REFERENCES [dbo].[Course] ([CourseCode])
 );
 
