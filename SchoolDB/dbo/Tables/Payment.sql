@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[PAYMENT] (
+﻿CREATE TABLE [dbo].[Payment] (
     [PaymentID]   INT           NOT NULL,
     [PeopleID]    INT           NOT NULL,
     [DateCreated] DATETIME DEFAULT GETDATE()  NOT NULL,
