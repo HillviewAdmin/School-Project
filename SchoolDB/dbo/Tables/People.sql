@@ -5,6 +5,7 @@
     [FirstName]    NVARCHAR (50)   NOT NULL,
     [MiddleInitial]   NCHAR (1)   NULL,
     [LastName]     NVARCHAR (50)   NOT NULL,
+	Gender		   CHAR(1) NOT NULL,
 	[LoginID]      NVARCHAR (50)   NOT NULL,
 	[Password]     BINARY  (64)   NOT NULL,
     [CreatedBy]    INT   NOT NULL,

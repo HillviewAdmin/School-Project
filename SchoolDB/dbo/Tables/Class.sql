@@ -1,7 +1,6 @@
 ﻿CREATE TABLE [dbo].[Class] (
     [ClassID]    NVARCHAR (25) NOT NULL,
     [ClassName]  NVARCHAR (50) NOT NULL,
-    [TeacherID]  INT      NOT NULL,
     [CreatedBy]  NVARCHAR (50) NOT NULL,
     [CreateDate] DATETIME DEFAULT GETDATE()  NOT NULL,
     [UpdateBy]   INT NOT NULL,
