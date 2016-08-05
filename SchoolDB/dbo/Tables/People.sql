@@ -3,7 +3,7 @@
     [PeopleTypeID] INT            NOT NULL,
 	[UserTypeID]   INT            NOT NULL,
     [FirstName]    NVARCHAR (50)   NOT NULL,
-    [MiddleName]   NCHAR (1)   NULL,
+    [MiddleInitial]   NCHAR (1)   NULL,
     [LastName]     NVARCHAR (50)   NOT NULL,
 	[LoginID]      NVARCHAR (50)   NOT NULL,
 	[Password]     BINARY  (64)   NOT NULL,
