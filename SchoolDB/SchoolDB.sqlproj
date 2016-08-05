@@ -77,7 +77,4 @@
   <ItemGroup>
     <RefactorLog Include="SchoolDB.refactorlog" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="dbo\Tables\Course_1.sql" />
-  </ItemGroup>
 </Project>
