@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Classroom]
 (
 	[ClassroomID] INT NOT NULL IDENTITY (1,1), 
-    [ClassID] INT NOT NULL, 
+    [ClassID] NVARCHAR(25) NOT NULL, 
     [PeopleID] INT NOT NULL, 
     [TeacherID] INT NOT NULL, 
     [StudentCount] INT NULL, 
