@@ -17,12 +17,13 @@
     [PostalCode]   NVARCHAR (10)   NULL,
     [Country]      NVARCHAR (50)   NULL,
     [EmailAddress] NVARCHAR (50)   NULL,
-    [Phone]        NVARCHAR(15)           NULL,
+    [Phone]        NVARCHAR(15)    NULL,
+	[HireDate]     DATETIME       NOT NULL,
     [ParentID]     INT            NOT NULL,
     [CreateDate]   DATETIME       NOT NULL DEFAULT Getdate(),
     [UpdatedBy]    INT            NOT NULL,
     [UpdateDate]   DATETIME       NOT NULL DEFAULT Getdate(),
-    [HireDate] DATETIME NOT NULL, 
+     
     CONSTRAINT [PK_People] PRIMARY KEY CLUSTERED ([PeopleID] ASC),
     
 );
