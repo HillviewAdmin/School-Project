@@ -22,6 +22,7 @@
     [CreateDate]   DATETIME       NOT NULL DEFAULT Getdate(),
     [UpdatedBy]    INT            NOT NULL,
     [UpdateDate]   DATETIME       NOT NULL DEFAULT Getdate(),
+    [HireDate] DATETIME NOT NULL, 
     CONSTRAINT [PK_People] PRIMARY KEY CLUSTERED ([PeopleID] ASC),
     
 );
