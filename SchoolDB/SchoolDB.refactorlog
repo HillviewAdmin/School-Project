@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6482327b-27f2-478c-a445-da4c2fd2d547" ChangeDateTime="08/20/2016 18:09:22">
+    <Property Name="ElementName" Value="[dbo].[StateProvince].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StateProvince]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a5e6395-f157-4b59-a8ff-815919ace151" ChangeDateTime="08/20/2016 18:11:13">
+    <Property Name="ElementName" Value="[dbo].[StateProvince].[StateID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StateProvince]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7137048b-97c1-4d7a-85b7-36190fb7efba" ChangeDateTime="08/20/2016 18:11:41">
+    <Property Name="ElementName" Value="[dbo].[StateProvince].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StateProvince]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b5bb3929-d0d9-47a6-97b5-8e16fcc54f7f" ChangeDateTime="08/20/2016 18:12:05">
+    <Property Name="ElementName" Value="[dbo].[People].[State]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[People]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateCode" />
+  </Operation>
+</Operations>
