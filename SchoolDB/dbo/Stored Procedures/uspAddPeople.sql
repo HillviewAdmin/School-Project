@@ -65,13 +65,13 @@ BEGIN
 
   --When you are registering a parent
   IF @pPeopleTypeID = 2
-  
+  BEGIN TRAN
   BEGIN TRY
   ---Parent Insert
   --When you are registering a parent
   IF @pPeopleTypeID = 2
 	  BEGIN
-		BEGIN TRAN
+		
   		  INSERT INTO [dbo].[People] 
 		  ([PeopleTypeID], [UserTypeID], [FirstName], [MiddleInitial], [LastName], [Gender], [LoginID], [Password],[DOB], [Address1], [Address2], 
 		  [City], [StateCode], [PostalCode], [Country], [EmailAddress], [Phone], [HireDate], [ParentID],[CreatedBy], [CreateDate], [UpdatedBy], [UpdateDate])
