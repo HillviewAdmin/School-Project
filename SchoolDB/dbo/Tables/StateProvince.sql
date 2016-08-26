@@ -4,7 +4,7 @@
     [StateName] NVARCHAR(100) NULL
 )
 GO
-Insert Into  dbo.StateProvince([StateCode], [StateName])
+Insert into dbo.StateProvince([StateCode], [StateName])
 Values 
 ( 'ABI', 'ABIA'),
 ('ADM', 'ADAMAWA'),
