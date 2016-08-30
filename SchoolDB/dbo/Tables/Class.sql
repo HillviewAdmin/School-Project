@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Class] (
-    [ClassID]    NVARCHAR (25) NOT NULL,
+    [ClassID]    NVARCHAR (10) NOT NULL,
     [ClassName]  NVARCHAR (50) NOT NULL,
     [CreatedBy]  NVARCHAR (50) NOT NULL,
     [CreateDate] DATETIME DEFAULT GETDATE()  NOT NULL,
