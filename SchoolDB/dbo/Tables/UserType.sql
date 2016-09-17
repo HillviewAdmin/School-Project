@@ -6,6 +6,6 @@
     [CreatedDate]        DATETIME DEFAULT GETDATE()  NOT NULL,
     [UpdatedBy]          INT NOT NULL,
     [UpdateDate]         DATETIME DEFAULT GETDATE() NOT NULL,
-    CONSTRAINT [PK_UserType] PRIMARY KEY CLUSTERED ([UserTypeId] ASC)
+    CONSTRAINT [PK_UserType] PRIMARY KEY CLUSTERED ([UserTypeID] ASC)
 );
 

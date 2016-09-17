@@ -60,6 +60,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\UserType.sql" />
@@ -77,9 +78,13 @@
     <Build Include="dbo\Tables\StateProvince.sql" />
     <Build Include="dbo\Stored Procedures\uspAddPeople.sql" />
     <Build Include="dbo\Stored Procedures\uspAddNewClass.sql" />
+    <Build Include="dbo\Functions\udfCalculateAge.sql" />
+    <Build Include="dbo\Stored Procedures\uspStudentAttendance.sql" />
+    <Build Include="dbo\Stored Procedures\uspAddStudenttoClassroom.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchoolDB-YOLO_DEV.publish.xml" />
+    <None Include="SchoolDB-UZOANYAS.publish.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchoolDB.publish.xml" />
